@@ -13,10 +13,10 @@ const config = {
 		vite: {
 			resolve: {
 					alias: {
-							// these are the aliases and paths to them
-							'@components': path.resolve('./src/lib/components'),
-							'@lib': path.resolve('./src/lib'),
-							'@utils': path.resolve('./src/lib/utils')
+						// these are the aliases and paths to them
+						'@components': path.resolve('./src/lib/components'),
+						'@lib': path.resolve('./src/lib'),
+						'@utils': path.resolve('./src/lib/utils')
 					}
 			}
 	}

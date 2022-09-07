@@ -30,6 +30,7 @@
   },
   "type": "module",
   "dependencies": {
-    "fundamental-styles": "^0.23.0"
+    "@sap-theming/theming-base-content": "^11.1.41",
+    "fundamental-styles": "^0.24.4"
   }
 }

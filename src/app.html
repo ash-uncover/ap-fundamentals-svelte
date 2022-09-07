@@ -7,11 +7,26 @@
 		<link rel='stylesheet' href='%svelte.assets%/fundamentals.css' />
 		<link rel='stylesheet' href='https://unpkg.com/fundamental-styles@latest/dist/fundamental-styles.css'>
 		<link rel='stylesheet' href='https://unpkg.com/@sap-theming/theming-base-content/content/Base/baseLib/sap_fiori_3/css_variables.css'>
-		<link rel='stylesheet' href='https://unpkg.com/fundamental-styles@lastest/dist/theming/sap_fiori_3.css' >
+		<link rel='stylesheet' href='https://unpkg.com/fundamental-styles@0.24.4/dist/theming/sap_fiori_3.css' >
 		<meta name='viewport' content='width=device-width, initial-scale=1' />
 		%svelte.head%
+		<style>
+			html, body {
+				position: absolute;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+			}
+			.svelte-root {
+				overflow: hidden;
+				position: absolute;
+				height: 100%;
+				width: 100%;
+			}
+		</style>
 	</head>
 	<body>
-		<div>%svelte.body%</div>
+		<div class="svelte-root">%svelte.body%</div>
 	</body>
 </html>
