@@ -1,16 +1,16 @@
-<script>
-  import { uuid } from '@utils/uuid.ts'
+<script lang='ts'>
+  import { uuid } from 'utils/uuid'
 
-  export let ariaDescription = ''
-  export let ariaDisabled = false
-  export let badge = ''
-	export let compact = false
-  export let disabled = false
-	export let emphasized = false
-  export let icon = null
-  export let selected = false
-  export let transparent = false
-  export let type = 'button'
+  export let ariaDescription:string = ''
+  export let ariaDisabled:boolean = false
+  export let badge:string = ''
+	export let compact:boolean = false
+  export let disabled:boolean = false
+	export let emphasized:boolean = false
+  export let icon:string = ''
+  export let selected:boolean = false
+  export let transparent:boolean = false
+  export let type:string = 'button'
 
   let id = uuid()
 </script>

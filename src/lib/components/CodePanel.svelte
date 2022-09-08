@@ -1,5 +1,5 @@
-<script>
-  export let title = 'Code Sample'
+<script lang='ts'>
+  export let title:string = 'Code Sample'
 
   let showCode = false
 
@@ -16,7 +16,9 @@
   </div>
   <div class='rendering'>
     <slot></slot>
-    <button class='button-show' on:click={onShowCode}>{showCode ? 'Hide Code' : 'Show Code'}</button>
+    <button class='button-show' on:click={onShowCode}>
+      {showCode ? 'Hide Code' : 'Show Code'}
+    </button>
   </div>
   {#if showCode}
     <div class='code'>

@@ -1,8 +1,8 @@
-<script>
-  export let type = null
-  export let href = '#'
-  export let disabled = false
-  export let inverted = false
+<script lang='ts'>
+  export let type:string = ''
+  export let href:string = '#'
+  export let disabled:boolean = false
+  export let inverted:boolean = false
 </script>
 
 <a

@@ -1,9 +1,9 @@
 <script>
-  import CodePanel from '@components/CodePanel.svelte';
-	import Icon from '@components/fiori/Icon.svelte';
-  import InfoLabel from '@components/fiori/InfoLabel.svelte';
-  import Link from '@components/fiori/Link.svelte'
-  import Title from '@components/fiori/Title.svelte';
+  import CodePanel from 'components/CodePanel.svelte';
+	import Icon from 'components/fiori/Icon.svelte';
+  import InfoLabel from 'components/fiori/InfoLabel.svelte';
+  import Link from 'components/fiori/Link.svelte'
+  import Title from 'components/fiori/Title.svelte';
 </script>
 
 <!-- RENDERING -->

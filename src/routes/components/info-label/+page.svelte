@@ -1,7 +1,7 @@
 <script>
-  import CodePanel from '@components/CodePanel.svelte';
-	import InfoLabel from '@components/fiori/InfoLabel.svelte';
-  import Title from '@components/fiori/Title.svelte';
+  import CodePanel from 'components/CodePanel.svelte';
+	import InfoLabel from 'components/fiori/InfoLabel.svelte';
+  import Title from 'components/fiori/Title.svelte';
 </script>
 
 <!-- RENDERING -->

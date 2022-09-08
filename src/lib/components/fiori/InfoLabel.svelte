@@ -1,8 +1,8 @@
-<script>
-	export let accentColor = 0;
-  export let icon = null;
-  export let display = false;
-  export let numeric = false;
+<script lang='ts'>
+	export let accentColor:number = 0
+  export let icon:string = ''
+  export let display:boolean = false
+  export let numeric:boolean = false
 </script>
 
 <span

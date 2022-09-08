@@ -1,6 +1,6 @@
-<script>
-  export let level = 1
-  export let wrap = false
+<script lang='ts'>
+  export let level:number = 1
+  export let wrap:boolean = false
 </script>
 
 {#if level === 2}

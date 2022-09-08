@@ -1,12 +1,17 @@
 <script>
-  import CodePanel from '@components/CodePanel.svelte';
-	import InfoLabel from '@components/fiori/InfoLabel.svelte';
-  import Title from '@components/fiori/Title.svelte';
+  import CodePanel from 'components/CodePanel.svelte';
+	import InfoLabel from 'components/fiori/InfoLabel.svelte';
+  import Title from 'components/fiori/Title.svelte';
 </script>
 
 <!-- RENDERING -->
 
 <Title>Title</Title>
+
+<p>
+  <InfoLabel accentColor={3}>Version 0.1.0</InfoLabel>
+  <InfoLabel accentColor={1}>Fiori 3</InfoLabel>
+</p>
 
 <Title level={2}>Examples</Title>
 
