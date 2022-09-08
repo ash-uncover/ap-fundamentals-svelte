@@ -1,12 +1,18 @@
 <script>
-	import CodePanel from '@utils/CodePanel.svelte';
-	import Icon from '@components/Icon.svelte';
-	import Title from '@components/Title.svelte';
+	import CodePanel from '@components/CodePanel.svelte';
+	import InfoLabel from '@components/fiori/InfoLabel.svelte';
+  import Icon from '@components/fiori/Icon.svelte';
+	import Title from '@components/fiori/Title.svelte';
 </script>
 
 <!-- RENDERING -->
 
 <Title>SAP Icons</Title>
+
+<p>
+  <InfoLabel accentColor={3}>Version 0.1.0</InfoLabel>
+  <InfoLabel accentColor={1}>Fiori 3</InfoLabel>
+</p>
 
 <Title level={2}>Usage</Title>
 

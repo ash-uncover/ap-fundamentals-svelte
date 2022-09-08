@@ -53,6 +53,7 @@
     bottom: 0;
   }
   .code {
+    white-space: pre-line;
     position : relative;
     padding: 1rem;
     background-color: #262626;

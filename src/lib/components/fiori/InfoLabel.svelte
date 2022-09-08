@@ -1,11 +1,12 @@
 <script>
 	export let accentColor = 0;
+  export let icon = null;
   export let display = false;
   export let numeric = false;
 </script>
 
 <span
-	class="fd-info-label"
+	class='fd-info-label'
 	class:fd-info-label--accent-color-1={accentColor === 1}
 	class:fd-info-label--accent-color-2={accentColor === 2}
   class:fd-info-label--accent-color-3={accentColor === 3}
@@ -19,7 +20,10 @@
   class:fd-info-label--display={Boolean(display)}
 	class:fd-info-label--numeric={Boolean(numeric)}
 >
-  <span class="fd-info-label__text">
+  <span class='fd-info-label__text'>
+    {#if icon}
+      <span role='presentation' class={`fd-info-label__icon sap-icon--${icon}`}></span>
+    {/if}
     <slot />
   </span>
 </span>

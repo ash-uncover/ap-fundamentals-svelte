@@ -6,7 +6,6 @@
 
 <span
   class={`sap-icon sap-icon--${icon}`}
-  style='font-size:3rem'
 ></span>
 
 <!-- RENDERING -->

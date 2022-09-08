@@ -18,7 +18,4 @@
 {/if}
 
 <style>
-  .fd-title {
-    font-family: "72", "Open Sans", sans-serif;
-  }
 </style>

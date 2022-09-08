@@ -15,7 +15,9 @@
   tabindex={disabled ? -1 : 0}
   href={href}
 >
-  <slot />
+  <span class='fd-link__content'>
+    <slot />
+  </span>
 </a>
 
 <style>

@@ -1,7 +1,7 @@
 <script>
-  import CodePanel from '@utils/CodePanel.svelte';
-	import InfoLabel from '@components/InfoLabel.svelte';
-  import Title from '@components/Title.svelte';
+  import CodePanel from '@components/CodePanel.svelte';
+	import InfoLabel from '@components/fiori/InfoLabel.svelte';
+  import Title from '@components/fiori/Title.svelte';
 </script>
 
 <!-- RENDERING -->
@@ -50,12 +50,12 @@
 <CodePanel>
   <InfoLabel display>system state</InfoLabel>
   <InfoLabel display numeric>42</InfoLabel>
-  <InfoLabel display />
+  <InfoLabel display icon='upload-to-cloud' />
   <InfoLabel display numeric>info label</InfoLabel>
   <div slot='code'>
     <div>{`<InfoLabel display>system state</InfoLabel>`}</div>
     <div>{`<InfoLabel display numeric>42</InfoLabel>`}</div>
-    <div>{`<InfoLabel display />`}</div>
+    <div>{`<InfoLabel display icon="upload-to-cloud"/>`}</div>
     <div>{`<InfoLabel display numeric>info label</InfoLabel>`}</div>
   </div>
 </CodePanel>
@@ -67,8 +67,11 @@
 </div>
 
 <CodePanel>
+  <InfoLabel accentColor={1} icon='future'>info label</InfoLabel>
+  <InfoLabel accentColor={2} icon='upload-to-cloud' />
   <div slot='code'>
-
+    <div>{`<InfoLabel display accentColor={1} icon='future'>info label</InfoLabel>`}</div>
+    <div>{`<InfoLabel display accentColor={2} icon='upload-to-cloud' />`}</div>
   </div>
 </CodePanel>
 
