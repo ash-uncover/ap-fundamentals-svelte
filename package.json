@@ -1,6 +1,6 @@
 {
-	"name": "ap-fundamentals-svelte",
-	"version": "0.0.1",
+	"name": "fundamentals-svelte",
+	"version": "0.1.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.5.0"
+		"@sap-theming/theming-base-content": "^11.1.41",
+    	"fundamental-styles": "^0.24.4"
 	}
 }

@@ -8,6 +8,11 @@
 
 <Title>Info Label</Title>
 
+<p>
+  <InfoLabel accentColor={3}>Version 0.1.0</InfoLabel>
+  <InfoLabel accentColor={1}>Fiori 3</InfoLabel>
+</p>
+
 <Title level={2}>Examples</Title>
 
 <Title level={3}>Color Flavor</Title>

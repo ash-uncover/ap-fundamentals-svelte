@@ -12,6 +12,7 @@
 
 <p>
   <InfoLabel accentColor={3}>Version 0.1.0</InfoLabel>
+  <InfoLabel accentColor={1}>Fiori 3</InfoLabel>
 </p>
 
 <p>A link (also known as hyperlink) is an interactive text element that allows users to navigate to another page or trigger a certain event.</p>
